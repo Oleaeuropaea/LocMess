@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">LocMess</string>
+    <string name="course_name">CMU 2016/2017</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_new_post">New post</string>
+    <string name="title_activity_post">Posts</string>
+    <string name="title_activity_location">Locations</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_post_detail">Post Detail</string>
+
+    <string name="title_menu_post_detail_nearby">Nearby</string>
+    <string name="title_menu_post_detail_posted">Posted</string>
+    <string name="title_menu_post_detail_saved">Saved</string>
+    <string name="title_activity_new_post">New Post</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+    <string name="date_time_format_client">dd/MM/yyy \'at\' HH:mm</string>
+
+    <!-- Strings related to Login and SingUp Activity -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_repeat">Password (repeat)</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="sign_up_button">Create Account</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email is invalid</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">Incorrect credentials</string>
+    <string name="error_registration">Username already exists</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="hint_create_account">No account yet? Create one</string>
+    <string name="hint_login">Already a member? Login</string>
+
+
+
+    <string name="title_activity_add_location">New location</string>
+    <string name="locations_file">Locations</string>
+
+    <string name="error_msg_empty_name">Empty name</string>
+    <string name="error_msg_empty_latitude">Empty latitude</string>
+    <string name="error_msg_empty_longitude">Empty longitude</string>
+    <string name="error_msg_empty_radius">Empty radius</string>
+    <string name="error_msg_empty_ssid">Empty SSID</string>
+
+    <string name="title_activity_location_detail">Location</string>
+
+    <string name="my_interests_file">my_interests_file</string>
+
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pt.ulisboa.tecnico.cmu.locmess.features.posts.activities.PostCreationActivity"
+    tools:showIn="@layout/activity_new_post_detail"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_npost_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Spinner
+        android:id="@+id/sp_npost_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/tv_npost_location"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_npost_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="From:"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_npost_divider2"/>
+
+    <TextView
+        android:id="@+id/et_npost_start_date"
+        android:onClick="onDateTimeClick"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:hint="start-date"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_npost_from"
+        app:layout_constraintLeft_toRightOf="@+id/tv_npost_from"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/et_npost_end_date"
+        android:onClick="onDateTimeClick"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:hint="end-date"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_npost_to"
+        app:layout_constraintLeft_toLeftOf="@+id/et_npost_start_date"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <View style="@style/Divider"
+          android:id="@+id/tv_npost_divider1"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          android:layout_marginTop="8dp"
+          app:layout_constraintTop_toBottomOf="@+id/et_npost_end_date"/>
+
+    <View style="@style/Divider"
+          android:id="@+id/tv_npost_divider2"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          android:layout_marginTop="8dp"
+          app:layout_constraintTop_toBottomOf="@+id/sp_npost_location"/>
+
+    <TextView
+        android:id="@+id/tv_npost_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="To:"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_npost_from"/>
+
+    <TextView
+        android:id="@+id/tv_npost_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Subject:"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_npost_divider1"/>
+
+    <EditText
+        android:id="@+id/et_npost_subject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:inputType="textEmailSubject"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_npost_subject"
+        app:layout_constraintLeft_toRightOf="@+id/tv_npost_subject"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <View style="@style/Divider"
+          android:id="@+id/tv_npost_divider3"
+          android:layout_marginTop="8dp"
+          app:layout_constraintTop_toBottomOf="@+id/et_npost_subject"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <EditText
+        android:id="@+id/et_npost_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="Message"
+        android:inputType="textMultiLine|textLongMessage"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_npost_divider3"/>
+
+</android.support.constraint.ConstraintLayout>

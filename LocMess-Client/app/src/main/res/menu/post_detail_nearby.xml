@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="pt.ulisboa.tecnico.cmu.locmess.features.posts.activities.PostDetailActivity">
+    <item
+        android:id="@+id/action_save_post"
+        android:icon="@drawable/ic_save"
+        android:orderInCategory="1"
+        android:title="Save Post"
+        app:showAsAction="always"/>
+</menu>

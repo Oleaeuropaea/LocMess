@@ -1,0 +1,42 @@
+# Example 3, group formation
+# needs 3 emulators
+
+
+list emus
+
+newdevice DEV_user1
+newdevice DEV_Ze
+newdevice DEV_Manel
+newdevice BLE_1
+newdevice WIFI_1
+newdevice WIFI_2
+
+assignaddr e1
+assignaddr e2
+assignaddr e3
+binddevice DEV_user1 e1
+binddevice DEV_Ze e2
+binddevice DEV_Manel e3
+
+ping
+wait 2
+
+move BLE_1 (DEV_user1)
+move WIFI_1 (DEV_user1,BLE_1)
+move DEV_Ze (DEV_user1,BLE_1,WIFI_1)
+creategroup WIFI_1 (BLE_1,DEV_user1,DEV_Ze)
+
+move DEV_Manel (WIFI_2)
+creategroup WIFI_2 (DEV_Manel)
+
+wait 2
+commit
+
+
+
+# DEV_Ze change the netwok:
+
+# move DEV_Ze (WIFI_2,DEV_Manel)
+# joingroup DEV_Ze (WIFI_2)
+# commit
+

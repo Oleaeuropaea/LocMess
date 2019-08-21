@@ -1,0 +1,62 @@
+[
+  {
+    "authorName": "dummy",
+    "authorEmail": "dummy@nowhere.com",
+    "creationDate": "2016-02-02 03:28:00",
+    "location": "26 Ridge Oak Trail",
+    "subject": "euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh",
+    "content": "lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis",
+    "windowStartDate": "2017-03-18 20:11:07",
+    "windowEndDate": "2016-07-07 02:57:14",
+    "isWhiteListPolicy": false,
+    "isCentralizeDeliveryMode": false
+  },
+  {
+    "authorName": "dummy",
+    "authorEmail": "dummy@nowhere.com",
+    "creationDate": "2016-08-18 05:48:10",
+    "location": "126 Algoma Parkway",
+    "subject": "eget tincidunt eget tempus vel pede",
+    "content": "faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus",
+    "windowStartDate": "2016-05-17 23:01:14",
+    "windowEndDate": "2016-07-06 09:40:03",
+    "isWhiteListPolicy": true,
+    "isCentralizeDeliveryMode": false
+  },
+  {
+    "authorName": "dummy",
+    "authorEmail": "dummy@nowhere.com",
+    "creationDate": "2016-04-12 03:12:50",
+    "location": "3 Park Meadow Court",
+    "subject": "amet lobortis sapien sapien non",
+    "content": "nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+    "windowStartDate": "2016-04-30 17:52:27",
+    "windowEndDate": "2017-01-10 17:53:39",
+    "isWhiteListPolicy": false,
+    "isCentralizeDeliveryMode": true
+  },
+  {
+    "authorName": "dummy",
+    "authorEmail": "dummy@nowhere.com",
+    "creationDate": "2017-01-02 06:48:27",
+    "location": "78568 Warrior Center",
+    "subject": "sapien non mi integer ac neque duis bibendum morbi non",
+    "content": "sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie",
+    "windowStartDate": "2017-03-14 05:09:56",
+    "windowEndDate": "2016-08-27 12:46:42",
+    "isWhiteListPolicy": false,
+    "isCentralizeDeliveryMode": false
+  },
+  {
+    "authorName": "dummy",
+    "authorEmail": "dummy@nowhere.com",
+    "creationDate": "2016-12-06 22:55:04",
+    "location": "9 Northport Point",
+    "subject": "nulla neque libero convallis eget",
+    "content": "eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget",
+    "windowStartDate": "2016-04-18 05:06:28",
+    "windowEndDate": "2016-12-09 19:51:03",
+    "isWhiteListPolicy": true,
+    "isCentralizeDeliveryMode": false
+  }
+]
