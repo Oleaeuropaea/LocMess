@@ -1,6 +1,6 @@
 #LocMess
 Project for the course of Project done
-on Mobile and Ubiquitous Computing [CMU], the during the 2016/17 academic year.
+on Mobile and Ubiquitous Computing [CMU], the during the 2016/17 academic year. test
 
 ## Report
 [Project Statement](https://github.com/Oleaeuropaea/LocMess/tree/master/docs/cmu2017-project.pdf)
