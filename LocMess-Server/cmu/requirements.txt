@@ -1,6 +1,6 @@
 mysql-python==1.2.5
 django==1.11.0
-djangorestframework==3.6.2
+djangorestframework==3.11.2
 django-rest-auth==0.9.1
 django-allauth==0.31.0
 djangorestframework-jwt==1.10.0
